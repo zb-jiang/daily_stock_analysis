@@ -63,27 +63,32 @@ _TREND_PREDICTION_CANONICAL_MAP = {
     "强烈看多": "strong_bullish",
     "strong bullish": "strong_bullish",
     "very bullish": "strong_bullish",
+    "非常看好": "strong_bullish",
     "看多": "bullish",
     "bullish": "bullish",
     "uptrend": "bullish",
+    "比较看好": "bullish",
     "震荡": "sideways",
     "neutral": "sideways",
     "sideways": "sideways",
     "range-bound": "sideways",
+    "横盘震荡": "sideways",
     "看空": "bearish",
     "bearish": "bearish",
     "downtrend": "bearish",
+    "不太看好": "bearish",
     "强烈看空": "strong_bearish",
     "strong bearish": "strong_bearish",
     "very bearish": "strong_bearish",
+    "很不看好": "strong_bearish",
 }
 
 _TREND_PREDICTION_TRANSLATIONS = {
-    "strong_bullish": {"zh": "强烈看多", "en": "Strong Bullish"},
-    "bullish": {"zh": "看多", "en": "Bullish"},
-    "sideways": {"zh": "震荡", "en": "Sideways"},
-    "bearish": {"zh": "看空", "en": "Bearish"},
-    "strong_bearish": {"zh": "强烈看空", "en": "Strong Bearish"},
+    "strong_bullish": {"zh": "非常看好", "en": "Strong Bullish"},
+    "bullish": {"zh": "比较看好", "en": "Bullish"},
+    "sideways": {"zh": "横盘震荡", "en": "Sideways"},
+    "bearish": {"zh": "不太看好", "en": "Bearish"},
+    "strong_bearish": {"zh": "很不看好", "en": "Strong Bearish"},
 }
 
 _CONFIDENCE_LEVEL_CANONICAL_MAP = {
@@ -109,12 +114,15 @@ _CHIP_HEALTH_CANONICAL_MAP = {
     "average": "average",
     "警惕": "caution",
     "caution": "caution",
+    "要小心": "caution",
+    "还行": "average",
+    "不错": "healthy",
 }
 
 _CHIP_HEALTH_TRANSLATIONS = {
-    "healthy": {"zh": "健康", "en": "Healthy"},
-    "average": {"zh": "一般", "en": "Average"},
-    "caution": {"zh": "警惕", "en": "Caution"},
+    "healthy": {"zh": "不错", "en": "Healthy"},
+    "average": {"zh": "还行", "en": "Average"},
+    "caution": {"zh": "要小心", "en": "Caution"},
 }
 
 _BIAS_STATUS_CANONICAL_MAP = {
